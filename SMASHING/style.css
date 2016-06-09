@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document for
+	SMASHING
+	Author:ZUOLIN LIN
+	Date:Nov 15th, 2015
+*/
+
+/***css reset***/
+body,ul,ol,dl,dd,input, select, textarea,form,label,h1,h2,h3,h4,p{padding:0; margin:0;}
+img{border:none;}
+a{text-decoration:none;}
+a:honver{text-decoration:none;}
+li{list-style:none;}
+
+.clear{zoom:1;}
+.clear:after{display:block; content:""; clear:both;}
+
+body{background:#fff; min-width:1024px;}
+.wrap{margin:0 auto; width:960px;}
+#header{height:115px;}
+#header .logo{float:left; width:360px; height:115px;}
+
+#header .phone{ height:42px; width:270px; float:right; background:url(img/phone.png) no-repeat right; padding-right:50px; margin-top:42px;}
+#header .phoneNo{float:right; color:#292929; font-family:Arial; font-size:20px; line-height:28px;}
+#header .help{float:right; color:#595959; font-family:Arial; font-size:11px; line-height:15px; font-weight:bold;}
+
+#nav{height:35px; border-bottom:4px solid #e3ab27; margin-bottom:1px;}
+#nav ul{height:35px;}
+#nav li{float:left; height:35px; margin-right:2px; }
+#nav a{float:left; height:35px;}
+#nav a strong{float:left; height:35px;}
+#nav a span{float:left; height:35px; color:#3f3f3f; font-size:12px; font-family:Arial; line-height:40px;  font-weight:bold; padding:0 20px;}
+/*#nav a:hover{background:url(img/navBg.png) repeat-x;}
+#nav a:hover strong{background:url(img/navBg.png) no-repeat 0 -35px;}
+#nav a:hover span{background:url(img/navBg.png) no-repeat right -70px;}*/
+#nav a:hover, #nav .active a{background:url(img/navBg.png) repeat-x;}
+#nav a:hover strong, #nav .active strong{background:url(img/navBg.png) no-repeat 0 -35px;}
+#nav a:hover span, #nav .active span{background:url(img/navBg.png) no-repeat right -70px; color:#fff;}
+
+#ad{height:400px; padding-top:40px; background:url(img/adBg.png) repeat-x; margin-bottom:40px;}
+#ad .wrap{height:340px; width:940px; background:#fff; padding:10px;}
+#ad .banner{height:340px; width:630px; float:left; position:relative;}
+#ad ul{position:absolute; z-index:1;}
+#ad li{height:340px; width:630px; position:absolute;}
+#ad .bg{height:89px; width:630px; background:#161718; filter:alpha(opacity:90); opacity:0.9; border-top:1px solid #8f8f90;position:absolute; bottom:0; left:0; z-index:2;}
+.banner h2{font-size:25px; font-family:"Trebuchet MS"; color:#fff;  font-weight:normal; position:absolute; left:26px; top:262px; z-index:3;}
+.banner p{width:570px; font-family:Arial; font-size:12px; color:#a4a4a4; line-height:14px; position:absolute; left:26px; top:296px; z-index:3; }
+#ad #quote{width:260px; height:300px; padding:20px; background:url(img/quoteBg.png) repeat-x; float:right;}
+#quote h2{font:normal 24px "Trebuchet MS"; color:#fff; margin-bottom:18px;}
+#quote lable{font:Arial 12px bold; color:#fff; float:left;}
+#quote .text, #quote textarea{float:left; width:260px; height:36px; color:#fff; font-family:Arial; font-size:12px; font-weight:bold; color:#666; margin:5px 0 8px; border:1px solid #fff;border-radius:3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;}
+#quote textarea{height:50px;}
+#quote .btn{width:80px; height:35px; background:url(img/quoteBtn.png) no-repeat; font-family:Arial; font-size:13px; color:#fff;  text-align:center; font-weight:bold; border:none; float:left;}
+
+#content{overflow:hidden; height:255px;}
+#content ul{width:990px;}
+#content li{width:258px; height:133px; border:1px solid #d8d8d8; padding:20px; float:left; margin-right:30px; background:url(img/contentLiBg.png) repeat-x;}
+#content h3{font-size:24px; font-family:Trebuchet MS; font-weight:normal; color:#2f2f2f; margin-bottom:18px;}
+#content span{color:#b47825;}
+#content p{font-size:12px; line-height:17px; color:#767676; font-family:Arial; float:left; width:160px; margin-bottom:8px;}
+#content img{float:right; height:82px; width:82px; padding:2px; border:1px solid #d8d8d8; margin-bottom:10px;}
+#content a{float:left; font-weight:bold; color: #252525;  text-decoration:underline;}
+#content a:hover{text-decoration:none;}
+
+#footer{height:100px; background:url(img/footerBg.png) repeat-x; font-family:Arial;}
+#footer .wrap{position:relative; }
+#footer .footerNav{float:left; line-height:22px; font-size:12px; color:#ddd; padding-top:29px;}
+#footer .footerNav a{color:#ddd; padding:0 8px;}
+#footer .footerNav a:hover{color:#fff;}
+#footer .footerNav span{padding-right:8px;}
+#footer .footerNav .home{padding-left:0;}
+#footer li{float:left;}
+#newsletter lable{position:absolute; top:25px; right:16px; font-weight:bold; font-size:12px; color:#fff; }
+#newsletter .text{position:absolute; top:45px; right:90px; background:#fff;  border:1px solid #ddd; padding-left:10px; width:200px; height:35px;-webkit-border-radius:3px; -moz-border-radius:3px; font:12px/35px Arial;}
+#newsletter .btn{position:absolute; top:45px; right:0; background:url(img/subscribe.png) no-repeat; font-size:13px; font-weight:bold; text-align:center; color:#fff; border:none; height:35px; width:85px;}

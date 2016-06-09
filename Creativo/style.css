@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document for CREATIVO WEBSITE
+	Author: Zuolin Lin
+	Date: Oct 20, 2015
+ */
+ 
+/***css reset***/
+body,h1,h2,h3,h4,dl,dd,p,ul,ol,textarea,select,input,form{margin:0; padding:0; font-family:Rockwell;}
+li{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+img{border:none;}
+
+.clear{zoom:1;}
+.clear:after{display:block; content:"";clear:both;}
+
+body{background:#59d3fa url(img/bodyBg.png) repeat-x;}
+#header{margin:100px auto 0; width:960px; height:125px;}
+#header .logo{float:left; text-indent:-9999px; margin-right:4px;}
+#header .logo a{display:block; width:320px; height:125px;background:url(img/logo.png) no-repeat;}
+#header .logo a:hover{background:url(img/logo.png) no-repeat 0 -125px;}
+#header ul{float:right; background:url(img/navBg.png) no-repeat; text-indent:-9999px; height:125px; width:630px; padding-right:6px;}
+#header ul li{float:left; height:125px;}
+#header ul li a{display:block; width:100%; height:100%;}
+#header .home{width:160px;}
+#header .about{width:138px;}
+#header .work{width:130px;}
+#header .contact{width:200px;}
+#header .home a:hover{background:url(img/navBg.png) no-repeat 0 -125px;}
+#header .about a:hover{background:url(img/navBg.png) no-repeat -160px -125px;}
+#header .work a:hover{background:url(img/navBg.png) no-repeat -298px -125px;}
+#header .contact a:hover{background:url(img/navBg.png) no-repeat -428px -125px;}
+
+#feature{width:960px; height:370px; margin:0 auto; position:relative;}
+#feature .target{width:530px;font-size:50px; line-height:60px; color:#fff; margin:18px 0 2px 32px;}
+#feature .here{width:480px; font-size:25px; line-height:30px; color:#fff; margin-left:32px;}
+#feature .learn a{display:block; width:280px; height:60px; background:url(img/learn.png) no-repeat; position:absolute; top:225px; left:132px;}
+#feature .learn a:hover{background:url(img/learn.png) no-repeat -280px 0;}
+#feature .mac{position:absolute; top:14px; right:42px;}
+
+#content{width:960px; margin:0 auto 20px; height:184px; }
+#content li{width:320px; height:184px; float:left;	}
+#content .box1{background:#59d3fa url(img/box1.png) no-repeat;}
+#content .box2{background:#59d3fa url(img/box2.png) no-repeat;}
+#content .box3{background:#59d3fa url(img/box3.png) no-repeat;}
+#content h3{padding-top:10px; font-size:24px; color:#0f83bc; line-height:64px; padding-left:130px;}
+#content p{width:155px; font-size:14px; line-height:18px; color:#0c3b4a; font-family:Helvetica;  padding-left:130px;}
+#content .box2 p, #content .box2 h3, #content .box3 h3, #content .box3 p{padding-left:140px;}
+
+#bottom{margin:0 auto; width:960px; padding-bottom:50px; border-bottom:1px dashed #094e64; height:108px;}
+#bottom .work {
+  width:620px;
+  float:left;
+  padding-left:10px;
+  margin-right: 10px;
+}
+#bottom .work h2 {
+  font:bold 20px/24px Verdana, Geneva, sans-serif;
+  color:#094e64;
+}
+#bottom .work p {
+  font:normal 14px/20px Arial, Helvetica, sans-serif;
+  color:#094e64;
+  margin-top:10px;
+}
+
+.search{width:298px; height:108px; margin-right:10px; background:url(img/searchBg.png) no-repeat; float:right; position:relative;  font-family:Helvetica;}
+.search h3{padding-top:16px; font-size:15px; color:#fff; line-height:33px; font-weight:bold; padding-left:20px;}
+.search .text{height:40px; width:216px; position:absolute; top:48px; left:16px; background:url(img/search.png) no-repeat; border:none; text-indent:10px; font-size:15px; line-height:40px; color:#0c3b4a;}
+.search .btn{background:url(img/search.png) no-repeat -216px 0; height:40px; width:50px; position:absolute; left:232px; top:48px; border:none;}
+
+#footer{width:960px; margin:0 auto; height:98px;}
+#footer .design{font-size:14px; line-height:38px; font-family:Helvetica; float:left;}
+#footer .phone{float:right; background:url(img/phone.png) no-repeat 0 9px; margin-right:24px; padding-left:32px; line-height:44px; font-size:30px; color:#fff;}
