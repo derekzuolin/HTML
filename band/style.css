@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Documentfor Band Website
+	Author: ZUOLIN LIN
+	Date:Nov 2, 2015
+ */
+
+/**css reset***/
+body,h1,h2,h3,h4,dl,dd,input,p,ul,ol,select,form,textarea{margin:0; padding:0;}
+li{list-style:none;}
+img{border:none;}
+a, a:hover{text-decoration:none;}
+
+.clear{zoom:1;}
+.clear:after{content:""; display:block; clear:both;}
+
+body{background:#d5d4c2 url(images/bodyBg.png) no-repeat top center; min-width:1024px;} 
+#header{height:140px; width:960px; margin:0 auto;}
+#header .logo{width:330px; height:140px; float:left;}
+#header .nav{float:right; height:140px;}
+#header .nav li{float:left; font-size:17px; line-height:23px; font-weight:bold; font-family:Arial; margin-right:2px;}
+#header .nav a{color:#706752; display:block; padding:62px 15px 30px;}
+#header .nav a:hover, #header .nav .active{background:#fff; opacity:0.59; filter:alpha(opacity:59);}
+
+#content{width:960px; margin:0 auto; background:url(images/contentBg.png) no-repeat; padding-top:32px; border-bottom:6px solid #c4c2af;}
+#news{height:410px; width:908px; margin:0 auto 16px;}
+#news li{height:410px; width:908px;}
+#news .firstPic{background:url(images/newsBg.png) no-repeat; position:relative;}
+#news dl{ width:450px; position:absolute; top:90px; left:60px;}
+#news a{color:#c7c7c7;}
+#news dt{float:left; font-size:36px; font-family: 'Holtwood One SC', serif; line-height:45px; color:#c7c7c7; margin-bottom:26px;}
+#news dd{font-family:Helvetica, Arial, sans-serif; font-size:16px; line-height:27px; padding-left:34px; padding-bottom:1px; margin-bottom:8px;}
+#news dd a{border-bottom:2px solid #acaba9;}
+#news img{position:absolute; width:276px; height:368px; right:22px; top:20px; box-shadow:0 0 5px #000;}
+
+#contentBottom{width:908px; margin:0 auto 20px; font-family:Arial; color:#403d3d; height:340px;}
+#contentBottom h3{font-size:18px; line-height:58px;} 
+#contentBottom .video{float:left; width:300px;}
+#contentBottom .video p{ margin-bottom:15px;}
+.video img{width:232px; height:173px;}
+.video li{font-size:18px; line-height:23px;}
+#contentBottom a{color:#403d3d; border-bottom:2px solid #6f6d67;}
+#contentBottom .blog{float:left; width:370px; margin-right:60px;}
+.blog ul{padding-top:10px;}
+.blog p{font-size:16px; line-height:23px;}
+.blog li{padding-bottom:28px;}
+#contentBottom .connect{float:left; width:160px; overflow:hidden;}
+.connect ul{width:168px; }
+.connect li{width:60px; height:50px; float:left; padding-left:14px;}
+.connect img{width:32px; height:32px;}
+#contentBottom .connect li a{border:none;}
+
+#footer{height:40px; margin:0 auto; width:960px; font-family:Arial; font-size:14px; line-height:23px; color:#494646; padding-top:8px;}
+#footer p{width:260px; margin:0 auto;}
+#footer a{color:#494646;}
+#footer .six{padding-right:8px; border-right:2px solid #74726c;}
+#footer .contact{padding-left:8px; }
